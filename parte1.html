@@ -2,76 +2,87 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Perfil Alumno A</title>
+    <title>Perfiles de Alumnos</title>
 </head>
 <body>
 
-
+    <!-- Sección Alumno A -->
+    <hr style="border: 3px solid red;">
     <h1>Hola, soy el Alumno A</h1>
     <h2>Estudiante de Programación Web</h2>
+    <img src="https://cdn-icons-png.flaticon.com/512/219/219983.png" alt="Alumno A" width="80">
 
+    <p>¡Bienvenido a mi perfil! Por favor, completa este formulario para conocerme mejor.</p>
 
-    <img src="https://cdn-icons-png.flaticon.com/512/219/219986.png" alt="Alumno A" width="80">
-
-
-    <p>¡Bienvenido a mi perfil! Por favor, completa este formulario para conocerte mejor.</p>
-
-
-    <form action="#" method="post">
-
-
+    <form>
         <label>Nombre completo:</label><br>
         <input type="text" name="nombre"><br><br>
-
 
         <label>Edad:</label><br>
         <input type="number" name="edad"><br><br>
 
-
-
-
         <label>Correo electrónico:</label><br>
         <input type="email" name="correo"><br><br>
-
 
         <label>¿Eres nuevo en programación?</label><br>
         <input type="radio" name="nuevo" value="si"> Sí<br>
         <input type="radio" name="nuevo" value="no"> No<br><br>
 
-
         <label>¿Qué lenguaje te interesa?</label><br>
         <input type="text" name="lenguaje"><br><br>
 
-
-
-
         <label>Temas que te gustaría aprender:</label><br>
-        <input type="checkbox" name="temas" value="html"> HTML<br>
-        <input type="checkbox" name="temas" value="css"> CSS<br>
-        <input type="checkbox" name="temas" value="js"> JavaScript<br><br>
-
-
-
+        <input type="checkbox" name="tema1" value="HTML"> HTML<br>
+        <input type="checkbox" name="tema2" value="CSS"> CSS<br>
+        <input type="checkbox" name="tema3" value="JS"> JavaScript<br><br>
 
         <label>¿Por qué te interesa la programación?</label><br>
         <textarea name="motivo" rows="4" cols="40"></textarea><br><br>
 
-
-
-
         <label>¿En qué horario prefieres estudiar?</label><br>
         <select name="horario">
-            <option>Mañana</option>
-            <option>Tarde</option>
-            <option>Noche</option>
+            <option value="mañana">Mañana</option>
+            <option value="tarde">Tarde</option>
+            <option value="noche">Noche</option>
         </select><br><br>
-
-
-        <input type="submit" value="Enviar y ver perfil del Alumno B">
     </form>
 
+    <!-- Sección Alumno B -->
+    <hr style="border: 3px solid red;">
+    <h1>¡Hola! Soy el Alumno B</h1>
+    <h2>Explorando el mundo de la programación</h2>
+    <img src="https://cdn-icons-png.flaticon.com/512/219/219983.png" alt="Alumno B" width="80">
+
+    <p>Gracias por visitar mi perfil. Por favor, completa el siguiente formulario para compartir un poco sobre ti.</p>
+
+    <form>
+        <label>Tu nombre completo:</label><br>
+        <input type="text" name="nombreB"><br><br>
+
+        <label>Correo electrónico:</label><br>
+        <input type="email" name="correoB"><br><br>
+
+        <label>Ciudad donde vives:</label><br>
+        <input type="text" name="ciudad"><br><br>
+
+        <label>¿Conocías HTML antes de este curso?</label><br>
+        <input type="radio" name="html_conocido" value="si"> Sí<br>
+        <input type="radio" name="html_conocido" value="no"> No<br><br>
+
+        <label>¿Qué te interesa más?</label><br>
+        <input type="radio" name="interes" value="frontend"> Front-End<br>
+        <input type="radio" name="interes" value="backend"> Back-End<br><br>
+
+        <label>Cuéntame algo sobre ti:</label><br>
+        <textarea name="comentario" rows="4" cols="40"></textarea><br><br>
+
+        <label>¿Con qué frecuencia practicas lo aprendido?</label><br>
+        <select name="frecuencia">
+            <option>Todos los días</option>
+            <option>3 veces por semana</option>
+            <option>Solo en clase</option>
+        </select><br><br>
+    </form>
 
 </body>
 </html>
-
-
